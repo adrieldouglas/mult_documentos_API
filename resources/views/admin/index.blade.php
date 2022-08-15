@@ -75,7 +75,7 @@
                   <button class="btn radius" data-toggle="tooltip" title="Entrar" style="background-color: #E0D9BF;">
                    <i class="bi bi-check2-square"></i> Entrar
                  </button>   
-                 <a href="" class="btn" data-toggle="tooltip" title="Cancelar" style="background-color: #D3D7CF;"><i class="bi bi-x-square"></i> Cancelar</a>                               
+                 <a href="{{ route('index') }}" class="btn" data-toggle="tooltip" title="Cancelar" style="background-color: #D3D7CF;"><i class="bi bi-x-square"></i> Cancelar</a>                               
                </div>
              </div>
            </form>

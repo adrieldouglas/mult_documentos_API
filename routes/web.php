@@ -20,7 +20,7 @@ use Illuminate\Support\Facades\Route;
     return view('index', [
       'tit_document' => $tit_document
     ]);
-  });
+  })->name('index');
 
   Route::group(['prefix' => 'admin', 'namespace' => 'Admin', 'as' => 'admin.'], function() {
 
